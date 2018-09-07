@@ -69,15 +69,15 @@ nav a {
     padding-bottom: 10px;
 }
 
-nav:visited,
-nav:link {
+nav a:visited,
+nav a:link {
     color: white;
     text-decoration: none;
     background-color: hsla(0, 0%, 42%, 0.4);
 }
 
-nav:active,
-nav:hover {
+nav a:active,
+nav a:hover {
     color: hsla(0, 0%, 100%, 0.7);
     background-color: hsl(0, 0%, 42%, 0.7);
 }
