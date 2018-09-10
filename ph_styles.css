@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+/* These are the styles to import the font from the files in the folder. */
 @font-face {
     font-family: Champange;
     src: url('cac_champagne.woff') format('woff'),
@@ -31,6 +32,7 @@
 
 */
 /* Structural Styles */
+/* These style are what affect the structure of the whole page, the body, the paragraphs, and the address, and are used to set the background color, style rules for the font, and padding/margin around each of the elements. */
 html {
     background-color: hsl(91, 8%, 56%);
 }
@@ -63,6 +65,7 @@ address {
 }
 
 /* Navigation Styles */
+/* These are style rules for the navigation links at the top of the page and also above each play, and are used to set the font, text color, and background color for the links when they are previously visited, non-visited, active, or hovered over, and also to remove the underline from the hypertext. */
 nav a {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     padding-top: 10px;
@@ -83,6 +86,7 @@ nav a:hover {
 }
 
 /* Section Styles */
+/* These are the styles for each individual section with a different ID for each section, and each section is set to a different background color while each section heading is set to a different font. The playbill in each section also has specific styles applied to change the font size, font weight, and margin/padding. */
 section.playbill h1 {
     font-size: 3em;
     font-weight: normal;
@@ -123,6 +127,7 @@ section#play4 h1 {
 }
 
 /* Description List Styles */
+/* Here are the description list style used to set the font size, font weight, margins, and color of each definiton term and definiton description. */
 dt {
     font-size: 1.3em;
     font-weight: bold;
